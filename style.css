@@ -1,7 +1,14 @@
 img {
   width: 20%;
+  margin-left: 100px;
+  margin-top: 50px;
 }
 li, ul {
   text-align: center;
-  margin-top: 20px;
+  margin-top: 10px;
+  list-style: none;
+  font-size: 20px;
+  font-style: italic;
+  font-weight: bolder;
+  font-family: inherit;
 }
