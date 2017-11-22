@@ -80,6 +80,7 @@ var tracker = {
     } else {
       if (tracker.clickCount === 15) {
         tracker.render();
+        tracker.imageEl.removeEventListener('click', tracker.onClick);
       }
     }
   }
