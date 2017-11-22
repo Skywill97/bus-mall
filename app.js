@@ -32,7 +32,7 @@ var tracker = {
   render: function() {
     var resultsEl = document.getElementById('results');
     var pEl = document.createElement('ul');
-    pEl.textContent = 'Results';
+    pEl.textContent = 'Results:';
     resultsEl.appendChild(pEl);
     for(var i = 0; i < allProducts.length; i++) {
       pEl = document.createElement('li');
